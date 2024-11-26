@@ -5,14 +5,14 @@ import java.util.random.RandomGenerator;
 
 public class TheRightPrice {
     public static void main(String[] args) {
-        RandomGenerator rgen = RandomGenerator.getDefault();
-        Scanner scan = new Scanner(System.in);
+        RandomGenerator random = RandomGenerator.getDefault();
+        Scanner scanner = new Scanner(System.in);
 
-        int price = rgen.nextInt(101);
+        int price = random.nextInt(101);
         System.out.println("User 1, guess the right price:");
-        int ans1 = scan.nextInt();
+        int ans1 = scanner.nextInt();
         System.out.println("User 2, guess the right price:");
-        int ans2 = scan.nextInt();
+        int ans2 = scanner.nextInt();
 
         if(Math.abs(price - ans1) < Math.abs(price - ans2)){
             System.out.println("User 1, you won! The price was " + price);

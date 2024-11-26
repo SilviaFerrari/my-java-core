@@ -1,5 +1,7 @@
 package com.SilviaFerrari.exercices.arrays;
 
+import org.w3c.dom.ls.LSInput;
+
 public class MatchUp {
     public static int matchUp(int[] v1, int[] v2){
         int counter = 0;
