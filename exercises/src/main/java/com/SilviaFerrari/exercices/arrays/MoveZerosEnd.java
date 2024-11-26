@@ -19,5 +19,6 @@ public class MoveZerosEnd {
         int[] arr = {0,0,4,0,5,0,3};
         System.out.println("Original array: " + Arrays.toString(arr) + "\n" +
                 "Ordered original array: " + Arrays.toString(moveZeros(arr)) + "\n");
+
     }
 }

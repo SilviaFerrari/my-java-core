@@ -4,12 +4,12 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class CopyArray {
-    public static Scanner scan = new Scanner(System.in);
+    public static Scanner scanner = new Scanner(System.in);
     public static void arrayGenerator(double[] arr){
         int index = 0;
         while(index < arr.length){
             System.out.println("Please, enter a number:");
-            arr[index] = scan.nextDouble();
+            arr[index] = scanner.nextDouble();
             index++;
         }
     }
@@ -21,7 +21,7 @@ public class CopyArray {
     }
     public static void main(String[] args) {
         System.out.println("Please, enter the array's length:");
-        int len = scan.nextInt();
+        int len = scanner.nextInt();
 
         double[] arr = new double[len];
         arrayGenerator(arr);
