@@ -1,18 +1,16 @@
 package com.SilviaFerrari.tests.strings;
 
+import com.SilviaFerrari.exercices.strings.Concatenate;
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ConcatenateTest {
+    @Test
+    public void concatenate() {
 
-    @org.junit.jupiter.api.BeforeEach
-    void setUp() {
+        assertEquals("Hello World!", Concatenate.concatenate(new String[]{"Hello", " ", "World", "!"}));
+        assertEquals("Hello World!", Concatenate.concatenate(new String[]{"H", "e", "llo", " ", "World!"}));
+        assertEquals("Hello World!", Concatenate.concatenate(new String[]{"Hello World", "!"}));
     }
 
-    @org.junit.jupiter.api.AfterEach
-    void tearDown() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void concatenate() {
-    }
 }

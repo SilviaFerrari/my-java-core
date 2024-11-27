@@ -1,4 +1,5 @@
 package com.SilviaFerrari.exercices.strings;
+import java.lang.StringBuilder;
 
 public class Concatenate {
     public static String concatenate(String[] strings) {
