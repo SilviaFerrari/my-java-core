@@ -12,6 +12,7 @@ public class CopyArrayWrongVersion {
             index++;
         }
     }
+    /*
     public static void main(String[] args) {
         System.out.println("Please, enter the array's length:");
         int len = scanner.nextInt();
@@ -23,4 +24,5 @@ public class CopyArrayWrongVersion {
         System.out.println("Array 1: " + Arrays.toString(arr));
         System.out.println("Array 2: " + Arrays.toString(arr2));
     }
+     */
 }
