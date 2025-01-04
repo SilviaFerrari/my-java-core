@@ -25,6 +25,6 @@ public class Library {
                 expired.add(rent);
             }
         }
-        return rents;
+        return expired;
     }
 }
