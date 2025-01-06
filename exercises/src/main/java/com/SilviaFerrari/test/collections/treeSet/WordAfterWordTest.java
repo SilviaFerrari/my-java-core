@@ -1,5 +1,7 @@
-package com.SilviaFerrari.main.collections.treeSet;
+package com.SilviaFerrari.test.collections.treeSet;
 
+import com.SilviaFerrari.main.collections.treeSet.WordAfterWord;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -11,7 +13,7 @@ class WordAfterWordTest {
 
     @Test
     void wordFrequency() throws IOException {
-        assertEquals("yesterdays", WordAfterWord.wordAfterWord(filename, "yesterday"));
+        Assertions.assertEquals("yesterdays", WordAfterWord.wordAfterWord(filename, "yesterday"));
         assertEquals("gold", WordAfterWord.wordAfterWord(filename, "goings"));
         assertEquals("zero", WordAfterWord.wordAfterWord(filename, "zermatt"));
     }

@@ -1,0 +1,22 @@
+package com.SilviaFerrari.test.functional;
+
+import com.SilviaFerrari.main.functional.JustPrint;
+import org.junit.jupiter.api.Test;
+
+import java.util.List;
+import java.util.Map;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class JustPrintTest {
+
+    @Test
+    void justPrintList() {
+        JustPrint.justPrintList(List.of("Marco", "Matteo", "Luca", "Giovanni"));
+    }
+
+    @Test
+    void justPrintMap() {
+        JustPrint.justPrintMap(Map.of(1, "nicola", 2, "agata", 3, "darma", 4, "marzia"));
+    }
+}
