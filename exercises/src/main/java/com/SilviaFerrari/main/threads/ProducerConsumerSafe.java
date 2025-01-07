@@ -1,9 +1,6 @@
 package com.SilviaFerrari.main.threads;
 
-import javax.swing.*;
 import java.util.*;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.function.Consumer;
 
 public class ProducerConsumerSafe {
 
